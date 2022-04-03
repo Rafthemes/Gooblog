@@ -1,0 +1,62 @@
+
+  <title>{{.Title}}</title>
+  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="canonical" href="{{ .Permalink | absURL }}" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="{{ or .Type `website` }}" />
+  <meta property="og:title" content="{{ .Title }}" />
+  {{if .Description}}
+  <meta name="og:description" content="{{ .Description }}">
+  {{ else if eq .Kind "section" }}
+  <meta name="og:description" content="{{ .Summary }}">
+  {{ else }}
+  <meta name="og:description" content="{{ .Site.Params.Description }}">
+  {{ end }}
+  <meta property="og:url" content="{{ .Permalink | absURL }}" />
+  <meta property="og:site_name" content="Code Stuff"  />
+  <meta name="twitter:card" content="summary" />
+  {{ if .IsPage }}
+  <meta property="article:author" content="https://www.facebook.com/hudasevanfold" />
+  <meta property="article:published_time" content="{{ .PublishDate.Format `20060102-15:04:05.000` }}" />
+  <meta property="article:modified_time" content="{{ .Page.Lastmod.Format `20060102-15:04:05.000` }}" />
+  <meta property="og:image" content="{{ .Params.thumbnail | absURL }}" />
+  <meta property="og:image:width" content="945" />
+  <meta property="og:image:height" content="595" />
+  {{ end }}
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-202498859-1">
+  </script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-202498859-1');
+  </script>
+
+  <script data-ad-client="ca-pub-1844158005089974" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+  <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+
+  <script async src="https://arc.io/widget.min.js#8N5Rbjgz"></script>
+
+  <script type="text/javascript">
+    atOptions = {
+      'key' : '43b32f336e1a09ce78d71c32a467050a',
+      'format' : 'iframe',
+      'height' : 250,
+      'width' : 300,
+      'params' : {}
+    };
+    document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.variouscreativeformats.com/43b32f336e1a09ce78d71c32a467050a/invoke.js"></scr' + 'ipt>');
+  </script>
+
+  <link rel="stylesheet" href="/css/styles.css">
+
+  {{if .IsPage}}
+  <link rel="stylesheet" href="/css/syntax.css">
+  {{end}}

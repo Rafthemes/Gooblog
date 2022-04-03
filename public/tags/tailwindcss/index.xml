@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tailwindcss on Code Stuff | All Stuff For Developers</title>
+    <link>https://codestuff.netlify.app/tags/tailwindcss/</link>
+    <description>Recent content in tailwindcss on Code Stuff | All Stuff For Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id-ID</language>
+    <lastBuildDate>Fri, 16 Jul 2021 17:54:14 +0700</lastBuildDate><atom:link href="https://codestuff.netlify.app/tags/tailwindcss/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tailwind Skeleton Loading</title>
+      <link>https://codestuff.netlify.app/code-snippets/tailwind-skeleton-loading/</link>
+      <pubDate>Fri, 16 Jul 2021 17:54:14 +0700</pubDate>
+      
+      <guid>https://codestuff.netlify.app/code-snippets/tailwind-skeleton-loading/</guid>
+      <description>Code Snippets - Tailwind Skeleton Loading Hei stuffer, apa kalian tahu apa itu skeleton loading?</description>
+    </item>
+    
+    <item>
+      <title>Installation Vuejs dan Tailwindcss</title>
+      <link>https://codestuff.netlify.app/tutorial/installation-vuejs-and-tailwindcss/</link>
+      <pubDate>Sat, 10 Jul 2021 08:56:15 +0700</pubDate>
+      
+      <guid>https://codestuff.netlify.app/tutorial/installation-vuejs-and-tailwindcss/</guid>
+      <description>Persiapan Pertama-tama sebelum menginstall Vuejs dan tailwindcss kalian harus menginstall Nodejs dan npm terlabih dahulu.</description>
+    </item>
+    
+  </channel>
+</rss>

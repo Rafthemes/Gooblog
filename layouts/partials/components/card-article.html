@@ -1,0 +1,70 @@
+<div class="
+  relative mb-5 
+  bg-white dark:bg-fs-gray
+  shadow hover:shadow-md 
+  overflow-hidden rounded transition
+  grid md:grid-cols-5
+">
+  {{ if .Params.Thumbnail }}
+  <a href="{{.Permalink}}" 
+    class="md:col-span-2 h-full w-full bg-second/90 dark:bg-primary/90">
+    <img 
+      loading="lazy"
+      src="{{ .Params.Thumbnail }}" 
+      class="h-full w-full object-center hover:opacity-80 transition object-cover"
+      alt="{{ .Title }} image"
+    />
+  </a>
+  {{ end }}
+
+  <div class="md:col-span-3 flex flex-col justify-between p-4 min-h-[10rem]">
+
+    <!-- Title and Description -->
+    <div>
+      <a href="{{.Permalink}}">
+        <h1 class="
+          text-xl font-semibold
+          hover:text-second dark:hover:text-primary dark:brightness-125
+          hover:underline cursor-pointer
+        ">
+          {{ .Title }}
+        </h1>
+      </a>
+      <p class="mt-1 text-gray-600 dark:text-gray-200 text-sm line-clamp-3 cursor-default">
+        {{or .Params.description .Summary}}
+      </p>
+    </div>
+
+    <div class="pt-2 text-gray-400 flex items-end justify-between">
+
+      <!-- Categories and Tags -->
+      <div class="flex gap-1 max-w-[70%]">
+        <ul class="flex gap-1 flex-wrap">
+          {{ range $category := .Params.Categories }}
+            <li class="text-xs bg-second dark:bg-primary/90 cursor-default text-white p-1 rounded">
+              {{ $category }}
+            </li>
+          {{ end }}
+          {{ range $tag := .Params.Tags }}
+            <li class="text-xs bg-second dark:bg-primary/90 cursor-default text-white p-1 rounded">
+              {{ $tag }}
+            </li>
+          {{ end }}
+        </ul>
+      </div>
+      <!-- Categories and Tags -->
+
+      <!-- Author -->
+      <div class="flex items-center gap-1">
+        <svg class="w-4 h-4" viewBox="0 0 195 195" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M97.5 195C151.348 195 195 151.348 195 97.5C195 43.6522 151.348 0 97.5 0C43.6522 0 0 43.6522 0 97.5C0 151.348 43.6522 195 97.5 195ZM97.5 158C130.913 158 158 130.913 158 97.5C158 64.0868 130.913 37 97.5 37C64.0868 37 37 64.0868 37 97.5C37 130.913 64.0868 158 97.5 158Z" fill="currentColor"/>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M121 26H75V80H121V26ZM121 115H75V171H121V115Z" fill="currentColor"/>
+        </svg>
+        <small>hudadamar21</small>
+      </div>
+    </div>
+  </div>
+
+  
+  
+</div>

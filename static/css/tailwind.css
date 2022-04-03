@@ -1,0 +1,145 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+html {
+  font-family: 'Ubuntu', sans-serif;
+  scroll-behavior: smooth;
+  @apply text-gray-700;
+}
+
+/* Content */
+
+#content h2 {
+  padding-top: 80px;
+  margin-top: -80px;
+  @apply text-2xl mb-3 font-bold;
+}
+
+#content h3 {
+  padding-top: 80px;
+  margin-top: -80px;
+  @apply text-xl mb-1;
+}
+
+#content h2::before, #content h3::before {
+  content: '#';
+  @apply text-second dark:text-primary pr-2;
+} 
+
+#content p {
+  margin-bottom: 5px;
+  letter-spacing: 1px;
+  @apply text-fs-gray dark:text-gray-100 tracking-wide mb-1.5 
+}
+
+#content a {
+  @apply text-black dark:text-white underline;
+}
+
+#content code {
+  @apply text-base;
+}
+
+#content img {
+  @apply mb-3;
+}
+
+/* Content END */
+
+
+/* Table of Contents */
+
+#TableOfContents ul { 
+  list-style-type: disc; 
+  list-style-position: inside;
+  
+}
+
+#TableOfContents ul li {
+  @apply mb-1 text-fs-black dark:text-white;
+}
+
+#TableOfContents ul li > a {
+  @apply no-underline ;
+}
+
+#TableOfContents ul li > ul {
+  @apply pl-5 block;
+}
+
+#TableOfContents ul li a:hover {
+  @apply underline;
+}
+
+/* Table of Contents END */
+
+
+/* Pagination */
+
+.pagination {
+  @apply flex items-center justify-center border border-fs-white dark:border-fs-gray rounded-md max-w-full overflow-hidden;
+}
+
+.page-item {
+  @apply w-12 py-2 border-r border-fs-white dark:border-fs-gray bg-white dark:bg-fs-gray;
+}
+
+.page-item:last-child {
+  @apply border-none;
+}
+
+.page-item:hover {
+  @apply bg-second/20 dark:bg-primary/20;
+}
+
+.page-item.active {
+  @apply bg-second dark:bg-primary text-white;
+}
+
+.page-item.disabled, .page-item.disabled a {
+  @apply bg-gray-200 dark:bg-fs-black cursor-not-allowed;
+}
+
+.page-link {
+  @apply grid place-items-center;
+}
+
+/* Pagination END */
+
+
+/* Block Code  */
+
+.wrapper {
+  background: #000;
+  overflow: scroll;
+}
+
+.highlight {
+  position: relative;
+  margin:0 0 25px;
+  overflow:hidden;
+  padding: 15px;
+  background-color: #272822;
+  border-radius: 7px;
+}
+
+.highlight:hover .copy-code-button {
+  @apply opacity-100 bg-second/30 dark:bg-primary/30 hover:bg-second dark:hover:bg-primary;
+}
+
+.copy-code-button {
+  @apply absolute right-2  text-second dark:text-primary opacity-30 transition duration-200 text-base rounded-md -mt-1 px-2 py-1 hover:cursor-pointer hover:text-white dark:hover:text-white;
+}
+
+.highlight .chroma {
+  overflow-x: auto;
+}
+
+.highlight .chroma .hl {
+  @apply border-l-4 border-second dark:border-primary w-full bg-fs-black block;
+}
+
+/* Block Code END */

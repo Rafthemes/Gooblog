@@ -1,0 +1,36 @@
+<nav class="w-full h-16 flex bg-transparent items-center justify-between fixed top-0 left-0 px-3 md:px-10 z-40 backdrop-filter backdrop-blur-md text-fs-black dark:text-white">
+  <a href="/" class="relative flex items-center cursor-pointer">
+    {{ if .IsPage }}
+    <div class="text-second dark:text-primary">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="currentColor" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 17l-5-5m0 0l5-5m-5 5h12" />
+        
+      </svg>
+    </div>
+    {{ end }}
+      <h1 class="font-medium text-2xl ml-1 text-second dark:text-primary filter dark:brightness-110">
+        {{- partial "logo.html" . -}}
+      </h1>
+  </a>
+  <ul class="flex gap-5">
+    <li class="border-b-4 border-transparent hover:border-second dark:hover:border-primary cursor-pointer transition duration-100">
+      <a class="font-semibold" href="/">Home</a>
+    </li>
+    <li class="border-b-4 border-transparent hover:border-second dark:hover:border-primary cursor-pointer transition duration-100">
+      <a class="font-semibold" href="#">About</a>
+    </li>
+    <li class="w-full">
+      <button 
+        class="w-10 h-5 md:w-10 md:h-5 rounded-2xl bg-white flex items-center transition duration-150 focus:outline-none shadow w-full"
+        onclick="toggleTheme()">
+        <div
+          id="switch-toggle"
+          class="w-6 h-6 md:w-6 md:h-6 relative rounded-full transition duration-500 transform bg-second -translate-x-2 p-1 text-white">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+          </svg>
+        </div>
+      </button>
+    </li>
+  </ul>
+</nav>

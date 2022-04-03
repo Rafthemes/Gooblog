@@ -1,0 +1,8 @@
+{{ if and (gt .WordCount 10) (.Params.toc)}}
+<nav class="relative mt-3 z-30 mb-10 border dark:border-fs-black border-l-4 border-l-second dark:border-l-primary pl-5 py-2 shadow-md dark:bg-fs-gray dark:text-white">
+  <h1 class="text-xl font-semibold mb-2">
+    Table of Contents
+  </h1>
+  {{ .TableOfContents }}
+</nav>
+{{end}}

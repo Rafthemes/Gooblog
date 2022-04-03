@@ -1,0 +1,67 @@
+<div class="bg-white dark:bg-fs-gray transition shadow-md px-5 md:ml-5 py-10 mt-5 rounded">
+
+  <div>
+    {{- partial "sidebar/search-input.html" . -}}
+  </div>
+
+  <div class="mb-6">
+    {{ partial "sidebar/title.html" (dict "title" "Populer Posts" "rotate" true)}}
+    <ul class="rounded overflow-hidden">
+      {{ range first 5  .Site.RegularPages }}
+        {{- partial "sidebar/list-article.html" . -}}
+      {{end}}
+    </ul>
+  </div>
+
+  <div class="mb-6">
+    {{ partial "sidebar/title.html" (dict "title" "Category")}}
+    <ul class="rounded overflow-hidden divide-y-2 divide-gray-200 bg-pink-500">
+      {{ range $key, $value := .Site.Taxonomies.categories }}
+        <li class="border-b border-white dark:border-fs-gray last:border-none">
+          <a href="{{ `/categories/` | relLangURL}}{{ $key | urlize }}"
+            class="
+            block relative w-full h-[max-content]
+            cursor-pointer overflow-hidden transition
+            bg-gradient-to-r 
+            from-gray-50 to-second/5 hover:to-second/10
+            dark:from-fs-black/20 dark:to-black/20 dark:hover:to-black/30
+          ">
+            <div class="p-4">
+              <h1 class="font-medium text-gray-700 dark:text-white">
+                {{ $key | humanize }} ({{ len $value }})
+              </h1>
+            </div>
+          </a>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+
+  <div>
+    {{ partial "sidebar/title.html" (dict "title" "Tags")}}
+    <ul class="rounded overflow-hidden p-4 flex items-center gap-2">
+      {{ range $key, $value := .Site.Taxonomies.tags }}
+        <li class="border-b border-white dark:border-fs-gray last:border-none">
+          <a href="{{ `/tags/` | relLangURL}}{{ $key | urlize }}"
+            class="
+              border-2 border-second dark:border-primary
+              hover:bg-second dark:hover:bg-primary 
+              text-second hover:text-white dark:text-white
+              px-2 py-1 rounded-md
+            ">
+            {{ $key | humanize }}
+          </a>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+</div>
+
+<amp-ad width="100vw" height="320"
+    type="adsense"
+    data-ad-client="ca-pub-1844158005089974"
+    data-ad-slot="8713179793"
+    data-auto-format="rspv"
+    data-full-width="">
+  <div overflow=""></div>
+</amp-ad>

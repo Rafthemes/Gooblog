@@ -1,0 +1,109 @@
+{{ define "main" }}
+
+  <header class="pb-2 mb-5 border-b dark:border-fs-gray text-fs-black dark:text-white">
+    <div class="mb-5">
+      <h1 class="text-3xl md:text-4xl font-semibold">{{.Title}}</h1>
+    </div>
+    <div class="flex items-end justify-between">
+      <a href="https://github.com/hudadamar21" class="flex items-center !no-underline" target="_blank">
+        <div class="mr-2">
+          <svg class="w-6 h-6" viewBox="0 0 195 195" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M97.5 195C151.348 195 195 151.348 195 97.5C195 43.6522 151.348 0 97.5 0C43.6522 0 0 43.6522 0 97.5C0 151.348 43.6522 195 97.5 195ZM97.5 158C130.913 158 158 130.913 158 97.5C158 64.0868 130.913 37 97.5 37C64.0868 37 37 64.0868 37 97.5C37 130.913 64.0868 158 97.5 158Z" fill="currentColor"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M121 26H75V80H121V26ZM121 115H75V171H121V115Z" fill="currentColor"/>
+          </svg>
+        </div>
+        <span class="mt-0.5">Huda Damar</span>
+      </a>
+      <p class="text-gray-400">
+        {{.Date.Format "Monday, Jan 2, 2006" }}
+      </p>
+    </div>
+  </header>
+  
+  {{ if isset .Params "thumbnail"}}
+  <img
+    id="thumbnail"
+    class="rounded w-full"
+    src="{{ .Params.thumbnail }}" 
+    alt="{{.Title}}"
+    onerror="imageNotRender()"
+  />
+  {{end}}
+
+  {{- partial "toc.html" . -}}
+  <amp-ad width="100vw" height="320"
+      type="adsense"
+      data-ad-client="ca-pub-1844158005089974"
+      data-ad-slot="8713179793"
+      data-auto-format="rspv"
+      data-full-width="">
+    <div overflow=""></div>
+  </amp-ad>
+
+  <main id="content" class="mt-10">
+    {{.Content}}
+  </main>
+
+  <div class="my-20">
+    {{ $related := .Site.RegularPages.Related . | first 5 }}
+    {{ with $related }}
+    <h3 class="font-medium text-2xl mb-3">Related Posts</h3>
+    <ul class="pl-5">
+      {{ range . }}
+      <li>- <a class="hover:underline" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      {{ end }}
+    </ul>
+    {{ end }}
+  </div>
+
+  <div id="disqus_thread"></div>
+
+  <amp-ad width="100vw" height="320"
+      type="adsense"
+      data-ad-client="ca-pub-1844158005089974"
+      data-ad-slot="8713179793"
+      data-auto-format="rspv"
+      data-full-width="">
+    <div overflow=""></div>
+  </amp-ad>
+
+  <script>
+    const thumbnail = document.querySelector('#thumbnail');
+    function imageNotRender(e){
+      thumbnail.src = '/images/default.png'
+    }
+  </script>
+
+  <script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://frontedstuff.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+  </script>
+
+  <!-- Jika Browser not support javascript or javascript is disabled -->
+  <noscript>
+    Please enable JavaScript to view the 
+    <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+  </noscript>
+
+{{end}}
+
+{{ define "footer"}}
+
+  {{ if (findRE "<pre" .Content 1) }}
+    <!-- Jika content memiliki pre atau bisa dibilang mempunyai block code maka masukan script -->
+    <script src="/js/copy-code-button.js"></script>
+  {{ end }}
+{{end}}

@@ -1,0 +1,23 @@
+baseURL = "https://codestuff.vercel.app"
+languageCode = "id-ID"
+defaultContentLanguage = "id"
+title = "Code Stuff | All Stuff For Developers"
+summaryLength = 10
+paginate = 8
+disqusShortname = "codestuff"
+enableGitInfo = true
+pygmentsCodefences = true 
+pygmentsUseClasses = true
+
+[params]
+  site_name = "Code Stuff"
+  description = "Code Stuff adalah Website yang menyediakan semua yang dibutuhkan developers dari Tutorial, Article, Code Snippet, dan lain-lain"
+  locale = "en-US"
+  type = "website"
+  
+
+# untuk mengganti struktur link
+# [permalinks]
+#   posts = ":slug"
+
+
