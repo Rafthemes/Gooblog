@@ -1,13 +1,11 @@
 {{ define "main" }}
-  <h2 class="font-bolf text-2xl mb-5">Recent Posts:</h2>  
-  <ul>
-    {{ range .Paginator.Pages }}
-      {{- partial "components/card-article.html" . -}}
-    {{end}}
-  </ul>
+  {{ range .Paginator.Pages }}
+    {{- partial "components/card-article.html" . -}}
+  {{end}}
 
-  <div class="w-full flex justify-center">
-    {{ template "_internal/pagination.html" . }}
-  </div> 
-
+  <div class="text-center pt-6 pb-16">
+    <button class="px-6 py-3 rounded-md border dark:border-white/10 text-primary-blue hover:bg-gray-100 transition">
+      Load More
+    </button>
+  </div>
 {{end}}
