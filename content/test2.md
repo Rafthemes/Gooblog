@@ -1,14 +1,13 @@
 ---
-title: "Test2"
+title: "here are some advantages after updating"
 date: 2022-04-03T12:00:26+07:00
 description: ""
 draft: false
 toc: true
 keyword: []
 thumbnail: "/images/img2.png"
-category: 'test'
+category: 'Anime'
 tags: [Populer, Games]
-categories: [Games, Anime]
 ---
 
 

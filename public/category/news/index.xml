@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News on Gooblog</title>
+    <link>http://localhost:1313/category/news/</link>
+    <description>Recent content in News on Gooblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id-ID</language>
+    <lastBuildDate>Sun, 03 Apr 2022 12:00:26 +0700</lastBuildDate><atom:link href="http://localhost:1313/category/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>how to install windows 10 on laptop easily</title>
+      <link>http://localhost:1313/test/</link>
+      <pubDate>Sun, 03 Apr 2022 12:00:26 +0700</pubDate>
+      
+      <guid>http://localhost:1313/test/</guid>
+      <description>asdasd asdasdad
+asdasdasd asdasdasdasd
+asdasd asdasdasd
+asdasdasd Lorem ipsum dolor sit amet consectetur adipisicing elit.</description>
+    </item>
+    
+    <item>
+      <title>how to install windows 10 on laptop easily</title>
+      <link>http://localhost:1313/test9/</link>
+      <pubDate>Sun, 03 Apr 2022 12:00:26 +0700</pubDate>
+      
+      <guid>http://localhost:1313/test9/</guid>
+      <description>asdasd asdasdad
+asdasdasd asdasdasdasd
+asdasd asdasdasd
+asdasdasd Lorem ipsum dolor sit amet consectetur adipisicing elit.</description>
+    </item>
+    
+    <item>
+      <title>Test3</title>
+      <link>http://localhost:1313/test3/</link>
+      <pubDate>Sun, 03 Apr 2022 12:00:26 +0700</pubDate>
+      
+      <guid>http://localhost:1313/test3/</guid>
+      <description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere culpa repudiandae recusandae possimus dolor quo aperiam rerum aut harum?</description>
+    </item>
+    
+  </channel>
+</rss>

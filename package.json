@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.html",
   "dependencies": {
+    "hugo-elasticsearch": "^1.1.4",
+    "hugo-lunr": "^0.0.4"
   },
   "devDependencies": {
     "@tailwindcss/line-clamp": "^0.3.1",
@@ -11,7 +13,12 @@
     "tailwindcss": "^3.0.23"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "index": "hugo-lunr -i content/** -o layouts/search-index.json",
+    "hindex": "hes -i 'content/**' -o layouts/search-index.json",
+    "index:yaml": "hes -i 'content/**' -o 'public/yaml/elasticsearch.json' -l 'yaml' -d '---'",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./tailwind.css -o ./static/css/main.css -w",
+    "hugo": "hugo server --path-warnings --ignoreCache --disableFastRender --renderToDisk --cleanDestinationDir"
   },
   "repository": {
     "type": "git",

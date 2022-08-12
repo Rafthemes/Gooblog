@@ -1,0 +1,5 @@
+<!-- Search Input -->
+<form id="search" action='{{ with .GetPage "/search" }}{{.Permalink}}{{end}}' method="get" class="flex-grow flex items-center gap-3 border border-gray-100 dark:border-white/10 px-6 h-full rounded-md ">
+  <img class="dark:invert w-5 h-5 -mb-1"  src="/images/icons/search.svg" alt="search">  
+  <input id="search-input" name="query" class="search-content w-full h-full focus:outline-none bg-transparent" type="text" placeholder="Search..">
+</form>

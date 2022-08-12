@@ -1,42 +1,87 @@
 {{ define "main" }}
 
+<article class="md:border dark:border-white/10 md:rounded-lg p-4 md:p-6">
+  <img src="{{ .Params.Thumbnail }}" class="rounded w-full" alt="article cover">
 
+  
 
-<article class="md:border dark:border-white/10 md:rounded-lg p-5">
-  <img src="/images/img1.png" class="rounded w-full" alt="article cover">
-
-  <div class="pt-3 space-y-5 mt-3 mb-5">
+  <div class="pt-3 space-y-5 mt-3 mb-5 border-b-2 pb-3">
     <h1 class="text-3xl font-medium leading-none capitalize">
-      how to install windows 10 on laptop easily
+      {{ .Title }}
     </h1>
-    <div class="flex items-center gap-3 text-xs text-black/60 dark:text-white">
-      <a href="#" class="flex items-cente gap-2 ">
-        <span class="material-icons-outlined">laptop</span>
-        Technology
-      </a>
-      <div class="flex items-center gap-1">
-       <span class="material-icons-outlined">schedule</span>
-        <time>
-          20 mins ago
-        </time>
-      </div>
+    <div class="flex items-center gap-3 text-xs text-black dark:text-white">
+      {{ range $category := .Params.Categories }}
+        <a href="#" class="flex items-center gap-2">
+          <img class="dark:invert" src="/images/icons/{{$category}}.svg" alt="">
+          {{$category}}
+        </a>
+      {{ end }} 
     </div>
   </div>
+
+  {{partial "toc.html" .}}
+
   <div class="prose dark:prose-invert prose-a:text-primary-blue">
     {{.Content}}
   </div>
+
+  <div class="w-full flex flex-wrap gap-2 mt-10 mb-2">
+    <button class="hover:opacity-90 transition bg-secondary-gray h-[54px] px-5 flex items-center gap-2 text-lg font-medium text-secondary-black rounded-md">
+      <img src="/images/icons/copy.svg" alt="copy">
+      Copy URL
+    </button>
+    <a href="#" class="hover:opacity-90 transition">
+      <img src="/images/icons/share-facebook.svg" alt="share facebook">
+    </a>
+    <a href="#" class="hover:opacity-90 transition">
+      <img src="/images/icons/share-twitter.svg" alt="share twitter">
+    </a>
+    <a href="#" class="hover:opacity-90 transition">
+      <img src="/images/icons/share-pinterest.svg" alt="share pinterest">
+    </a>
+    <a href="#" class="hover:opacity-90 transition">
+      <img src="/images/icons/share-whatsapp.svg" alt="share whatsapp">
+    </a>
+  </div>
 </article>
 
-  <div class="my-20">
-    {{ $related := .Site.RegularPages.Related . | first 5 }}
-    {{ with $related }}
-    <h3 class="font-medium text-2xl mb-3">Related Posts</h3>
-    <ul class="pl-5">
-      {{ range . }}
-      <li>- <a class="hover:underline" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-      {{ end }}
-    </ul>
+<div class="p-4 md:p-0"> 
+  <button class="border rounded-lg w-full h-16 text-lg font-medium flex items-center justify-center gap-3 text-primary-blue">
+    <img src="/images/icons/chat.svg" alt="chat">
+    Open Chat
+  </button>
+</div>
+
+<div class="my-20 p-4 md:p-0">
+  {{ $related := .Site.RegularPages.Related . | first 2 }}
+  {{ with $related }}
+  <ul class="divide-y md:space-y-5">
+    {{ range . }}
+    <figure class="flex flex-col md:flex-row items-center gap-0 md:gap-8 px-4 md:px-6 py-10 md:py-5 -mx-4 md:mx-0 md:!border md:rounded-md dark:border-white/10">
+      <a href="{{ .RelPermalink }}" class="w-full md:w-[40%] aspect-[12/8] rounded-md overflow-hidden hover:opacity-90 transition">
+        {{ if .Params.Thumbnail }}
+        <img src="{{ .Params.Thumbnail }}"  class="w-full h-full object-cover" alt="{{ .Title }}">
+        {{ end }}
+      </a>
+      <div class="space-y-5 w-full md:w-[60%] mt-3 md:mt-0">
+        <a href="{{ .RelPermalink }}" class="hover:underline">
+          <figcaption class="text-2xl font-medium leading-snug line-clamp-2 capitalize">
+            {{ .Title }}
+          </figcaption>
+        </a>
+        <div class="flex items-center gap-3 text-sm text-black dark:text-white">
+          {{ range $category := .Params.Categories }}
+            <a href="#" class="flex items-center gap-2">
+              <img class="dark:invert" src="/images/icons/{{$category}}.svg" alt="">
+              {{$category}}
+            </a>
+          {{ end }}
+        </div>
+      </div>
+    </figure>
     {{ end }}
-  </div>
+  </ul>
+  {{ end }}
+</div>
 
 {{end}}

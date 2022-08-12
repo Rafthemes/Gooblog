@@ -1,19 +1,26 @@
-baseURL = "https://codestuff.vercel.app"
+baseURL = "https://gooblog.netlify.app"
 languageCode = "id-ID"
 defaultContentLanguage = "id"
-title = "Code Stuff | All Stuff For Developers"
+title = "Gooblog"
 summaryLength = 10
 paginate = 8
-disqusShortname = "codestuff"
+disqusShortname = "gooblog"
 enableGitInfo = true
 pygmentsCodefences = true 
 pygmentsUseClasses = true
 
+[taxonomies]
+  category = "category"
+
 [params]
-  site_name = "Code Stuff"
-  description = "Code Stuff adalah Website yang menyediakan semua yang dibutuhkan developers dari Tutorial, Article, Code Snippet, dan lain-lain"
+  site_name = "Gooblog"
+  description = "Gooblong description"
   locale = "en-US"
   type = "website"
+
+[markup.tableOfContents]
+    endLevel = 6
+    startLevel = 1
   
 
 # untuk mengganti struktur link

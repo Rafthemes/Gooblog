@@ -5,56 +5,26 @@
   {{- partial "head.html" . -}}
 </head>
 
-<body class="bg-gray-100 dark:bg-primary-black max-w-[900px] mx-auto overflow-x-hidden dark:text-white">
-  <div class="relative bg-white dark:bg-secondary-black py-4">
+<body class="bg-primary-gray dark:bg-primary-black mx-auto overflow-x-hidden dark:text-white">
+  <div class="relative bg-white dark:bg-secondary-black py-4 max-w-[1119px] mx-auto">
     {{- partial "header.html" . -}}
 
-    {{ if .IsPage }}
-    <section class="px-0 md:px-12 py-6">
+    
+    <section class="px-0 md:px-24 py-6">
       <div class="grid grid-cols-1 md:grid-cols-4 h-max">
-        <!-- Share -->
-        <aside class="col-span-1 sticky top-5 left-0 h-max hidden md:flex flex-col items-end pt-5 pr-16 space-y-3">
-          <a href="#" class="w-10 aspect-square grid place-items-center rounded-full border dark:border-white/10 hover:bg-gray-100 transition text-sm leading-none">
-            <span class="material-icons-outlined">
-              keyboard_arrow_up
-              </span>
-          </a>
-          <a href="#" class="w-10 aspect-square grid place-items-center rounded-full border dark:border-white/10 hover:bg-gray-100 transition text-sm leading-none">
-            <img class="dark:invert" src="/images/icons/sm-instagram.svg" alt="instagram">
-          </a>
-          <a href="#" class="w-10 aspect-square grid place-items-center rounded-full border dark:border-white/10 hover:bg-gray-100 transition text-sm leading-none">
-            <img class="dark:invert" src="/images/icons/sm-twitter.svg" alt="twitter">
-          </a>
-          <a href="#" class="w-10 aspect-square grid place-items-center rounded-full border dark:border-white/10 hover:bg-gray-100 transition text-sm leading-none">
-            <img class="dark:invert" src="/images/icons/sm-facebook.svg" alt="facebook">
-          </a>
-          <a href="#" class="w-10 aspect-square grid place-items-center rounded-full border dark:border-white/10 hover:bg-gray-100 transition text-sm leading-none">
-            <img class="dark:invert" src="/images/icons/sm-youtube.svg" alt="youtube">
-          </a>
-        </aside>
-        <!-- Share -->
-        <main class="md:-ml-12 col-span-2 md:mr-3">
-          {{- block "main" . }}{{- end }}
-        </main>
-        {{- partial "side-content.html" . -}}
-      </div>
-    </section>
-    {{ else }}
-    <section class="px-0 md:px-12 py-6">
-      <div class="grid grid-cols-1 md:grid-cols-4 h-max">
-        <main class="col-span-3 md:pr-8 space-y-0 md:space-y-4">
+        <main class="col-span-3 md:pr-8 space-y-0 md:space-y-4 mb-12 lg:mb-0">
           {{- block "main" . }}{{- end }}
         </main>
         
         {{- partial "side-content.html" . -}}
       </div>
     </section>
-    {{end}}
     {{- partial "footer.html" . -}}
   </div>
   
 
   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  {{ partial "search-index.html" . }}
   <script src="/js/main.js"></script>
 </body>
 </html>

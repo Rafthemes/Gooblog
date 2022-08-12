@@ -1,8 +1,13 @@
 {{ if and (gt .WordCount 10) (.Params.toc)}}
-<nav class="relative mt-3 z-30 mb-10 border dark:border-fs-black border-l-4 border-l-second dark:border-l-primary pl-5 py-2 shadow-md dark:bg-fs-gray dark:text-white">
-  <h1 class="text-xl font-semibold mb-2">
-    Table of Contents
-  </h1>
-  {{ .TableOfContents }}
+<nav class="relative mt-8 z-30 mb-10 border rounded-lg dark:bg-fs-gray dark:text-white max-w-sm">
+  <div class="flex items-center gap-3 border-b py-2 px-4">
+    <img src="/images/icons/toc.svg" alt="toc">
+    <h1 class="text-xl font-semibold">
+      Table of Contents
+    </h1>
+  </div>
+  <div class="py-2 px-4 text-primary-blue hover:[&_a]:underline [&_a]:block [&_a]:py-0.5">
+    {{ .TableOfContents }}
+  </div>
 </nav>
 {{end}}

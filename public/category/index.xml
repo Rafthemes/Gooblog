@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Category on Gooblog</title>
+    <link>http://localhost:1313/category/</link>
+    <description>Recent content in Category on Gooblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id-ID</language>
+    <lastBuildDate>Sun, 03 Apr 2022 12:00:26 +0700</lastBuildDate><atom:link href="http://localhost:1313/category/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Android</title>
+      <link>http://localhost:1313/category/android/</link>
+      <pubDate>Sun, 03 Apr 2022 12:00:26 +0700</pubDate>
+      
+      <guid>http://localhost:1313/category/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anime</title>
+      <link>http://localhost:1313/category/anime/</link>
+      <pubDate>Sun, 03 Apr 2022 12:00:26 +0700</pubDate>
+      
+      <guid>http://localhost:1313/category/anime/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Game</title>
+      <link>http://localhost:1313/category/game/</link>
+      <pubDate>Sun, 03 Apr 2022 12:00:26 +0700</pubDate>
+      
+      <guid>http://localhost:1313/category/game/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>News</title>
+      <link>http://localhost:1313/category/news/</link>
+      <pubDate>Sun, 03 Apr 2022 12:00:26 +0700</pubDate>
+      
+      <guid>http://localhost:1313/category/news/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Popular</title>
+      <link>http://localhost:1313/category/popular/</link>
+      <pubDate>Sun, 03 Apr 2022 12:00:26 +0700</pubDate>
+      
+      <guid>http://localhost:1313/category/popular/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>http://localhost:1313/category/tags/</link>
+      <pubDate>Sun, 03 Apr 2022 12:00:26 +0700</pubDate>
+      
+      <guid>http://localhost:1313/category/tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Technology</title>
+      <link>http://localhost:1313/category/technology/</link>
+      <pubDate>Sun, 03 Apr 2022 12:00:26 +0700</pubDate>
+      
+      <guid>http://localhost:1313/category/technology/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

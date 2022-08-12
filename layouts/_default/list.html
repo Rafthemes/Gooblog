@@ -2,6 +2,12 @@
   {{ range .Paginator.Pages }}
     {{- partial "components/card-article.html" . -}}
   {{end}}
+
+  <ul id="results">
+    <li>
+        Enter a keyword above to search this site.
+    </li>
+  </ul>
   
   <div class="text-center pt-6 pb-16">
     <button class="px-6 py-3 rounded-md border dark:border-white/10 text-primary-blue hover:bg-gray-100 transition">
