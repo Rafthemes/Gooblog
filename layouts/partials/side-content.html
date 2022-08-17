@@ -134,12 +134,12 @@
       <h2 class="text-lg">Tags</h2>
     </div>
     <ul class="space-y-2">
-      {{ range $key, $value := .Site.Taxonomies.category }}
+      {{ range $key, $value := .Site.Taxonomies.tags }}
       <li class="flex items-center justify-between">
-        <a href="#" class="hover:underline">{{ $key | humanize }}</a>
+        <a href="{{ `/tags/` | relLangURL}}{{ $key | urlize }}" class="hover:underline">{{ $key | humanize }}</a>
         <span>({{ len $value }})</span>
       </li>
-      {{ end }}
+      {{ end }} 
     </ul>
   </div>
 </aside>

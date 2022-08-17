@@ -3,7 +3,7 @@ languageCode = "id-ID"
 defaultContentLanguage = "id"
 title = "Gooblog"
 summaryLength = 10
-paginate = 8
+paginate = 5
 disqusShortname = "gooblog"
 enableGitInfo = true
 pygmentsCodefences = true 
@@ -11,6 +11,7 @@ pygmentsUseClasses = true
 
 [taxonomies]
   category = "category"
+  tag = "tags"
 
 [params]
   site_name = "Gooblog"
@@ -21,7 +22,18 @@ pygmentsUseClasses = true
 [markup.tableOfContents]
     endLevel = 6
     startLevel = 1
-  
+
+[related]
+  includeNewer = false
+  threshold = 80
+  toLower = false
+[[related.indices]]
+  name = 'keywords'
+  weight = 100
+[[related.indices]]
+  name = 'date'
+  weight = 10
+
 
 # untuk mengganti struktur link
 # [permalinks]

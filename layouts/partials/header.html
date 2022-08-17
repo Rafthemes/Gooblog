@@ -39,11 +39,15 @@
 
         <div class="swiper-wrapper">
           {{ range $key, $value := .Site.Taxonomies.category }}
-          <a href="#" class="swiper-slide flex items-center gap-3 !w-auto hover:bg-gray-300/20 py-2 px-6 rounded-lg transition">
+          <a href="/category/{{ $key }}" class="swiper-slide flex items-center gap-3 !w-auto hover:bg-gray-300/20 py-2 px-6 rounded-lg transition">
             {{ partial "components/icon-by-category.html" (dict "category" $key)}}
             {{ $key | humanize }}
           </a>
           {{ end }}
+          <a href="/tags" class="swiper-slide flex items-center gap-3 !w-auto hover:bg-gray-300/20 py-2 px-6 rounded-lg transition">
+            {{ partial "components/icon-by-category.html" (dict "category" "tags")}}
+            Tags
+          </a>
         </div>
         
       </div>

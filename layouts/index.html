@@ -1,11 +1,15 @@
 {{ define "main" }}
-  {{ range .Paginator.Pages }}
+  {{ $range := .Pages }}
+  {{ $paginator := .Paginate $range }}
+  {{ range $paginator.Pages }}
     {{- partial "components/card-article.html" . -}}
   {{end}}
 
+  {{ if and (gt $paginator.TotalPages 1) ($paginator.HasNext) }}
   <div class="text-center pt-6 pb-16">
     <button class="px-6 py-3 rounded-md border dark:border-white/10 text-primary-blue hover:bg-gray-100 transition">
       Load More
     </button>
   </div>
+  {{ end }}
 {{end}}

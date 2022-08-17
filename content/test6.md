@@ -6,7 +6,7 @@ draft: false
 toc: true
 keyword: []
 thumbnail: "/images/img2.png"
-category: 'Tags'
+category: "Game"
 tags: [Populer, Games]
 ---
 
