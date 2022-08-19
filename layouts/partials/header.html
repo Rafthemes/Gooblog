@@ -28,23 +28,23 @@
     </div>
 
     <!-- Categories -->
-    <nav class="flex items-center md:gap-2 overflow-x-hidden dark:bg-secondary-black w-full md:!w-[90%] md:-mx-4 py-1 h-full">
+    <nav class="flex items-center md:gap-2 overflow-x-hidden dark:bg-secondary-black w-full py-1 h-full">
 
       <!-- category list -->
-      <div class="swiper nav-swiper md:!-pl-7 md:!pr-2 !w-full">
+      <div class="swiper nav-swiper !w-full">
 
         <!-- side blur -->
-        <div class="absolute -top-1 -left-2 h-[130%] w-6 bg-white dark:bg-secondary-black blur-sm z-20 hidden md:block"></div>
-        <div class="absolute -top-1 -right-2 h-[130%] w-6 bg-white dark:bg-secondary-black blur-sm z-20 hidden md:block"></div>
+        <div class="absolute -top-1 -left-4 h-[130%] w-6 bg-white dark:bg-secondary-black blur-sm z-20 hidden md:block"></div>
+        <div class="absolute -top-1 -right-4 h-[130%] w-6 bg-white dark:bg-secondary-black blur-sm z-20 hidden md:block"></div>
 
         <div class="swiper-wrapper">
           {{ range $key, $value := .Site.Taxonomies.category }}
-          <a href="/category/{{ $key }}" class="swiper-slide flex items-center gap-3 !w-auto hover:bg-gray-300/20 py-2 px-6 rounded-lg transition">
+          <a href="/category/{{ $key }}" class="swiper-slide flex items-center gap-3 !w-auto hover:bg-gray-300/20 py-2 px-2 md:px-5 rounded-lg transition">
             {{ partial "components/icon-by-category.html" (dict "category" $key)}}
             {{ $key | humanize }}
           </a>
           {{ end }}
-          <a href="/tags" class="swiper-slide flex items-center gap-3 !w-auto hover:bg-gray-300/20 py-2 px-6 rounded-lg transition">
+          <a href="/tags" class="swiper-slide flex items-center gap-3 !w-auto hover:bg-gray-300/20 py-2 px-2 md:px-5 rounded-lg transition">
             {{ partial "components/icon-by-category.html" (dict "category" "tags")}}
             Tags
           </a>
@@ -56,7 +56,7 @@
       <div class="flex gap-2 !h-full">
         <!-- prev button -->
         <button class="nav-swiper-prev hidden md:flex items-center justify-center rounded-full hover:bg-gray-300/20 h-8 w-8">
-          <img src="/images/icons/prev.svg" alt="">
+          <img class="dark:invert" src="/images/icons/prev.svg" alt="">
         </button>
         
         <!-- next button -->
