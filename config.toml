@@ -18,6 +18,20 @@ pygmentsUseClasses = true
   description = "Gooblong description"
   locale = "en-US"
   type = "website"
+  categories = [
+    'android',
+    'anime',
+    'games',
+    'news',
+    'popular',
+    'technology',
+    'tags'
+  ]
+  instagram = '#'
+  twitter = '#'
+  facebook = '#'
+  youtube = '#'
+  
 
 [markup.tableOfContents]
     endLevel = 6
@@ -35,8 +49,5 @@ pygmentsUseClasses = true
   weight = 10
 
 
-# untuk mengganti struktur link
-# [permalinks]
-#   posts = ":slug"
 
 

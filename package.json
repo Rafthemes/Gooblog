@@ -11,7 +11,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npx tailwindcss -i ./tailwind.css -o ./static/css/main.css -w",
-    "hugo": "hugo server --path-warnings --ignoreCache --disableFastRender --renderToDisk --cleanDestinationDir"
+    "hugo": "hugo server --ignoreCache --disableFastRender --renderToDisk --cleanDestinationDir"
   },
   "repository": {
     "type": "git",

@@ -8,6 +8,7 @@ keyword: []
 thumbnail: "/images/img2.png"
 category: 'Game'
 tags: [Populer, Games]
+trending: false
 ---
 
 

@@ -8,6 +8,7 @@ keyword: []
 thumbnail: "/images/img1.png"
 category: 'News'
 tags: [Populer, Games]
+trending: true
 ---
 
 # asdasd

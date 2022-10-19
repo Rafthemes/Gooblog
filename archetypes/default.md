@@ -1,11 +1,12 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-description: ""
-draft: false
-toc: true
-keyword: []
+title: "{{ replace .Name "-" " " | title }}"
 thumbnail: ""
+description: ""
 tags: []
+keyword: []
+draft: false
+toc: false
+trending: false
 ---
 

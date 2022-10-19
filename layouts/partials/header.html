@@ -1,4 +1,5 @@
-<header class="sticky -top-12 bg-white dark:bg-secondary-black w-full items-start justify-center border-b dark:border-white/10 z-40 select-none px-4 md:px-24">
+<header
+  class="sticky -top-12 bg-white dark:bg-secondary-black w-full items-start justify-center border-b dark:border-white/10 z-40 select-none px-4 md:px-24">
   <div class="col-span-2 order-last md:order-none mt-3 md:mt-0">
 
     <div class="flex items-center w-full gap-3 h-12">
@@ -7,20 +8,24 @@
       <div class="h-full flex gap-0 md:gap-3">
         <!-- Langs -->
         <details class="relative h-full">
-          <summary class="flex items-center gap-2 cursor-pointer px-3 h-full rounded-md rounded-r-none md:rounded-r border border-r-0 md:border-r border-gray-100 dark:border-white/10">
+          <summary
+            class="flex items-center gap-2 cursor-pointer px-3 h-full rounded-md rounded-r-none md:rounded-r border border-r-0 md:border-r border-gray-100 dark:border-white/10">
             <span class="text-lg hidden md:block">En</span>
             <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M2.0275 0.294983L7 5.26748L11.9725 0.294983L13.5 1.83332L7 8.33332L0.5 1.83332L2.0275 0.294983Z" fill="currentColor"/>
+              <path d="M2.0275 0.294983L7 5.26748L11.9725 0.294983L13.5 1.83332L7 8.33332L0.5 1.83332L2.0275 0.294983Z"
+                fill="currentColor" />
             </svg>
           </summary>
-          <ul class="absolute top-full left-0 z-20 mt-1 border dark:border-primary-black rounded-md bg-white dark:bg-primary-black w-[150%] md:w-full shadow-lg">
+          <ul
+            class="absolute top-full left-0 z-20 mt-1 border dark:border-primary-black rounded-md bg-white dark:bg-primary-black w-[150%] md:w-full shadow-lg">
             <li class="px-3 py-2 text-lg hover:bg-gray-100 dark:hover:bg-secondary-black cursor-pointer">En</li>
             <li class="px-3 py-2 text-lg hover:bg-gray-100 dark:hover:bg-secondary-black cursor-pointer">ID</li>
           </ul>
         </details>
-    
+
         <!-- Switch Mode -->
-        <button id="toggle-theme" class="w-12 md:w-auto md:px-4 h-full rounded-md rounded-l-none md:rounded-l border border-gray-100 dark:border-white/10 flex items-center justify-center gap-2">
+        <button id="toggle-theme"
+          class="w-12 md:w-auto md:px-4 h-full rounded-md rounded-l-none md:rounded-l border border-gray-100 dark:border-white/10 flex items-center justify-center gap-2">
           <div class="text hidden md:block">Light</div>
           <img src="/images/icons/lightmode.svg" alt="mode">
         </button>
@@ -34,40 +39,42 @@
       <div class="swiper nav-swiper !w-full">
 
         <!-- side blur -->
-        <div class="absolute -top-1 -left-4 h-[130%] w-6 bg-white dark:bg-secondary-black blur-sm z-20 hidden md:block"></div>
-        <div class="absolute -top-1 -right-4 h-[130%] w-6 bg-white dark:bg-secondary-black blur-sm z-20 hidden md:block"></div>
+        <div class="absolute -top-1 -left-4 h-[130%] w-6 bg-white dark:bg-secondary-black blur-sm z-20 hidden md:block">
+        </div>
+        <div
+          class="absolute -top-1 -right-4 h-[130%] w-6 bg-white dark:bg-secondary-black blur-sm z-20 hidden md:block">
+        </div>
 
         <div class="swiper-wrapper">
-          {{ range $key, $value := .Site.Taxonomies.category }}
-          <a href="/category/{{ $key }}" class="swiper-slide flex items-center gap-3 !w-auto hover:bg-gray-300/20 py-2 px-2 md:px-5 rounded-lg transition">
-            {{ partial "components/icon-by-category.html" (dict "category" $key)}}
-            {{ $key | humanize }}
+          {{ range .Site.Params.Categories }}
+          <a href='/{{ if eq . "tags" }}{{ . }}{{ else }}category/{{.}}{{ end }}'
+            class="swiper-slide flex items-center gap-3 !w-auto hover:bg-gray-300/20 py-2 px-2 md:px-5 rounded-lg transition">
+            {{ partial "components/icon-by-category.html" (dict "category" .)}}
+            {{ . | humanize }}
           </a>
           {{ end }}
-          <a href="/tags" class="swiper-slide flex items-center gap-3 !w-auto hover:bg-gray-300/20 py-2 px-2 md:px-5 rounded-lg transition">
-            {{ partial "components/icon-by-category.html" (dict "category" "tags")}}
-            Tags
-          </a>
         </div>
-        
+
       </div>
       <!-- category list - END -->
 
       <div class="flex gap-2 !h-full">
         <!-- prev button -->
-        <button class="nav-swiper-prev hidden md:flex items-center justify-center rounded-full hover:bg-gray-300/20 h-8 w-8">
+        <button
+          class="nav-swiper-prev hidden md:flex items-center justify-center rounded-full hover:bg-gray-300/20 h-8 w-8">
           <img class="dark:invert" src="/images/icons/prev.svg" alt="">
         </button>
-        
+
         <!-- next button -->
-        <button class="nav-swiper-next hidden md:flex items-center justify-center rounded-full hover:bg-gray-300/20 h-8 w-8">
+        <button
+          class="nav-swiper-next hidden md:flex items-center justify-center rounded-full hover:bg-gray-300/20 h-8 w-8">
           <img src="/images/icons/next.svg" alt="">
         </button>
       </div>
 
     </nav>
-     <!-- Categories - END -->
-    
+    <!-- Categories - END -->
+
   </div>
 
 </header>

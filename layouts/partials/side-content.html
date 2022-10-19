@@ -7,12 +7,9 @@
       <img class="dark:invert" src="/images/icons/email.svg" alt="email">
       <h2 class="text-lg">Subscribe</h2>
     </div>
-    <input 
-      type="email" 
-      name="email" 
-      class="p-3 placeholder:text-secondary-black dark:placeholder:text-white/60 rounded-md border dark:border-white/10 w-full bg-transparent focus:outline-none" 
-      placeholder="Your@email.com"
-    />
+    <input type="email" name="email"
+      class="p-3 placeholder:text-secondary-black dark:placeholder:text-white/60 rounded-md border dark:border-white/10 w-full bg-transparent focus:outline-none"
+      placeholder="Your@email.com" />
   </div>
 
   <!-- Follow Us -->
@@ -22,16 +19,20 @@
       <h2 class="text-lg">Follow Us</h2>
     </div>
     <div class="flex items-center justify-start gap-3 py-2">
-      <a href="#" class="w-9 aspect-square grid place-items-center rounded-full border dark:border-white/10 hover:bg-gray-100 transition text-sm leading-none">
+      <a href="{{ .Site.Params.Instagram }}"
+        class="w-9 aspect-square grid place-items-center rounded-full border dark:border-white/10 hover:bg-gray-100 transition text-sm leading-none">
         <img class="dark:invert" src="/images/icons/instagram.svg" alt="instagram">
       </a>
-      <a href="#" class="w-9 aspect-square grid place-items-center rounded-full border dark:border-white/10 hover:bg-gray-100 transition text-sm leading-none">
+      <a href="{{ .Site.Params.Twitter }}"
+        class="w-9 aspect-square grid place-items-center rounded-full border dark:border-white/10 hover:bg-gray-100 transition text-sm leading-none">
         <img class="dark:invert" src="/images/icons/twitter.svg" alt="twitter">
       </a>
-      <a href="#" class="w-9 aspect-square grid place-items-center rounded-full border dark:border-white/10 hover:bg-gray-100 transition text-sm leading-none">
+      <a href="{{ .Site.Params.Facebook }}"
+        class="w-9 aspect-square grid place-items-center rounded-full border dark:border-white/10 hover:bg-gray-100 transition text-sm leading-none">
         <img class="dark:invert" src="/images/icons/facebook.svg" alt="facebook">
       </a>
-      <a href="#" class="w-9 aspect-square grid place-items-center rounded-full border dark:border-white/10 hover:bg-gray-100 transition text-sm leading-none">
+      <a href="{{ .Site.Params.Youtube }}"
+        class="w-9 aspect-square grid place-items-center rounded-full border dark:border-white/10 hover:bg-gray-100 transition text-sm leading-none">
         <img class="dark:invert" src="/images/icons/youtube.svg" alt="youtube">
       </a>
     </div>
@@ -40,30 +41,20 @@
   <!-- Trending -->
   <div class="border dark:border-white/10 border-md p-3 rounded-md">
     <div class="flex items-center gap-2 border-b dark:border-white/10 pb-3 mb-3">
-      <img class="dark:invert" src="/images/icons/trending.svg" alt="trending">
+      <img class="dark:invert" src="/images/icons/category/trending.svg" alt="trending">
       <h2 class="text-lg">Trending</h2>
     </div>
     <div class="space-y-3 dark:text-white">
-      <a href="#" class="block line-clamp-2 hover:underline">
-        How To Install Windows 10 On Laptop Easily
-      </a>
-      <a href="#" class="block line-clamp-2 hover:underline">
-        Here Are Some Advantages After Updating To  The  To The Late... 
-      </a>
-      <a href="#" class="block line-clamp-2 hover:underline">
-        Best Anime Recommendations In 2020
-      </a>
-      <a href="#" class="block line-clamp-2 hover:underline">
-        Vr Play Guide
-      </a>
-      <a href="#" class="block line-clamp-2 hover:underline">
-        The Most Popular Musis Recommendations This Year
-      </a>
-      <a href="#" class="block line-clamp-2 hover:underline">
-        Lorem Ispun Dolor Si Amet Jamet Mergaroto Sudo
-      </a>
+      {{ range first 6 .Site.RegularPages }}
+        {{ if eq .Params.Trending true }}
+          <a href="{ .Permalink }" class="block line-clamp-2 hover:underline">
+            {{ .Title }}
+          </a>
+        {{ end }}
+      {{ end }}
     </div>
-    <a href="#" class="block border-t dark:border-white/10 pt-3 mt-3 w-full text-center text-primary-blue hover:text-secondary-blue transition">
+    <a href="#"
+      class="block border-t dark:border-white/10 pt-3 mt-3 w-full text-center text-primary-blue hover:text-secondary-blue transition">
       See all
     </a>
   </div>
@@ -139,7 +130,7 @@
         <a href="{{ `/tags/` | relLangURL}}{{ $key | urlize }}" class="hover:underline">{{ $key | humanize }}</a>
         <span>({{ len $value }})</span>
       </li>
-      {{ end }} 
+      {{ end }}
     </ul>
   </div>
 </aside>
