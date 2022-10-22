@@ -50,7 +50,7 @@ function switchTheme() {
 const openChat = document.querySelector(".open-chat");
 const disqus = document.querySelector("#disqus_thread");
 
-openChat.addEventListener("click", () => {
+openChat?.addEventListener("click", () => {
   openChat.style.display = "none";
   disqus.style.display = "block";
 });

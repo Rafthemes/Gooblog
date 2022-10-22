@@ -6,7 +6,7 @@ draft: false
 toc: true
 keyword: []
 thumbnail: "/images/img1.png"
-category: 'News'
+category: 'Games'
 tags: [Populer, Games]
 trending: true
 ---

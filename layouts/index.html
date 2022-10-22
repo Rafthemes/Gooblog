@@ -1,15 +1,40 @@
 {{ define "main" }}
-  {{ $range := .Pages }}
-  {{ $paginator := .Paginate $range }}
-  {{ range $paginator.Pages }}
-    {{- partial "components/card-article.html" . -}}
-  {{end}}
+{{ $paginate := .Paginate (where .Site.RegularPages "Kind" "page" )}}
 
-  {{ if and (gt $paginator.TotalPages 1) ($paginator.HasNext) }}
-    <div class="text-center pt-6 pb-16">
-      <button class="px-6 py-3 rounded-md border dark:border-white/10 text-primary-blue hover:bg-gray-100 transition">
-        Load More
-      </button>
-    </div>
-  {{ end }}
+<section class="post-container space-y-5">
+  {{ range $paginate.Pages }}
+  {{- partial "components/card-article.html" . -}}
+  {{end}}
+</section>
+
+<div class="mt-16 :mt-24 flex justify-center w-full">
+  {{- if .Paginator.HasNext -}}
+  <div class="text-center pt-6 pb-16">
+    <a href="{{ .Paginator.Next.URL }}"
+      class="post-load-more block px-6 py-3 rounded-md border dark:border-white/10 text-primary-blue hover:bg-gray-100 transition">
+      Load More
+    </a>
+  </div>
+  {{- end -}}
+
+</div>
 {{end}}
+
+{{ define "scripts" }}
+
+<script src="https://unpkg.com/infinite-scroll@4/dist/infinite-scroll.pkgd.min.js"></script>
+<script>
+
+  const postContainer = document.querySelector('.post-container');
+
+  const options = {
+    path: '.post-load-more',
+    append: '.post-card',
+    loadOnScroll: false,
+    button: '.post-load-more',
+    history: null
+  };
+
+  const infScroll = new InfiniteScroll(postContainer, options);
+</script>
+{{ end }}
