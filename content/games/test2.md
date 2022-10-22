@@ -6,7 +6,7 @@ draft: false
 toc: false
 keyword: []
 thumbnail: "/images/img2.png"
-category: 'Anime'
+category: 'Games'
 tags: [Populer, Games]
 trending: true
 ---

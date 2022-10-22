@@ -8,6 +8,8 @@ disqusShortname = "gooblog"
 enableGitInfo = true
 pygmentsCodefences = true 
 pygmentsUseClasses = true
+[permalinks]
+  '/' = '/:section/:filename/'
 
 [taxonomies]
   category = "category"

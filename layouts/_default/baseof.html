@@ -25,6 +25,7 @@
 
   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
   {{ partial "search-index.html" . }}
+  {{- block "scripts" . }}{{- end }}
   <script src="/js/main.js"></script>
 </body>
 </html>
