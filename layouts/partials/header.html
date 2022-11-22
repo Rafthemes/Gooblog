@@ -46,6 +46,10 @@
         </div>
 
         <div class="swiper-wrapper">
+          <a href="/" class="swiper-slide flex items-center gap-3 !w-auto hover:bg-gray-300/20 py-2 px-2 md:px-5 rounded-lg transition">
+            {{ partial "components/icon-by-category.html" (dict "category" "home")}}
+            All
+          </a>
           {{ range .Site.Params.Categories }}
           <a href='/{{ if eq . "tags" }}{{ . }}{{ else }}category/{{.}}{{ end }}'
             class="swiper-slide flex items-center gap-3 !w-auto hover:bg-gray-300/20 py-2 px-2 md:px-5 rounded-lg transition">

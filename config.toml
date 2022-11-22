@@ -21,12 +21,11 @@ pygmentsUseClasses = true
   locale = "en-US"
   type = "website"
   categories = [
-    'android',
-    'anime',
-    'games',
-    'news',
     'popular',
     'technology',
+    'android',
+    'games',
+    'anime',
     'tags'
   ]
   instagram = '#'
