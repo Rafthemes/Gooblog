@@ -1,7 +1,7 @@
 baseURL = "https://gooblog.netlify.app"
 languageCode = "id-ID"
 defaultContentLanguage = "id"
-title = "Gooblog"
+title = "Gooblob"
 summaryLength = 10
 paginate = 5
 disqusShortname = "gooblog"
