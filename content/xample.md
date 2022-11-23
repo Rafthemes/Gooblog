@@ -1,17 +1,20 @@
 ---
-title: "how to install windows 10 on laptop easily"
+title: "Test3"
 date: 2022-04-03T12:00:26+07:00
 description: ""
-draft: false
+draft: true
 toc: true
 keyword: []
-thumbnail: "/images/img1.png"
+thumbnail: "/images/img2.png"
 category: 'News'
 tags: [Populer, Games]
 trending: false
 ---
 
+
 # asdasd
+
+![1](/images/1.webp)
 
 asdasdad
 

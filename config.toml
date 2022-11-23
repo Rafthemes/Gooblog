@@ -20,13 +20,10 @@ pygmentsUseClasses = true
   description = "Gooblong description"
   locale = "en-US"
   type = "website"
-  categories = [
-    'popular',
-    'technology',
-    'android',
+  categories = [ 
     'games',
-    'anime',
-    'tags'
+    'technology',
+    'anime'
   ]
   instagram = '#'
   twitter = '#'
