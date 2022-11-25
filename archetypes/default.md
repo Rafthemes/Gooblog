@@ -3,10 +3,11 @@ date: {{ .Date }}
 title: "{{ replace .Name "-" " " | title }}"
 thumbnail: ""
 description: ""
+category: ""
 tags: []
 keyword: []
 draft: false
-toc: false
+toc: true
 trending: false
 ---
 
