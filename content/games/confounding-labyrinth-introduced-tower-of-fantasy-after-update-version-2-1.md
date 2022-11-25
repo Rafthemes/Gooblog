@@ -1,9 +1,9 @@
 ---
-date: 2022-11-23T07:38:20-08:00
+date: 2022-16-23T07:38:20-08:00
 title: "Confounding Labyrinth Introduced Tower of Fantasy After Update Version 2 1"
 thumbnail: "/images/games/[games]tof-labyrinth.png"
 description: ""
-tags: [games]
+tags: [games, mobile]
 category: 'games'
 keyword: [Tower of Fantasy, Mobile Games, PC Games, Anime, Waifu]
 draft: false
@@ -24,3 +24,5 @@ The Wanderer will locate a number unsafe creatures hiding. Several creatures reg
 Apart from the Confounding Labyrinth, Saki Fuwa's latest Simulacra used to be launched final November 10. Saki Fuwa is the chief of the Security Special Force in Mirroria. He is the solely actual human in the squad, as he has by no means passed through any biomechanical modification. Saki Fuwa loves the historical conflict fashion of kendo, and regularly wears the standard kendo uniform. He is additionally adept at the use of "Super Flow", the capacity to focal point his full center of attention on one factor and produce top notch assaults and fight power. Saki Fuwa is armed with a weapon referred to as Heartstream.
 
 The Confounding Labyrinth will be arriving at the Tower of Fantasy November 22, 2022. Meet special monsters and discover lovely new locations inside this maze!
+
+Source: Press Release

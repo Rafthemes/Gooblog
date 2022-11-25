@@ -1,9 +1,9 @@
 ---
-date: 2022-11-8T07:09:13-08:00
+date: 2022-11-14T07:38:20-08:00
 title: "Nikke Goddess Victory Reached 10 Million Download Only in 1 Week"
 thumbnail: "/images/games/[games]nikke-goddess-victory-reached-10-million-download-only-in-1-week.png"
 description: ""
-tags: [games]
+tags: [games, mobile]
 category: 'games'
 keyword: [Nikke, Mobile Games, Anime, Waifu]
 draft: false
@@ -26,3 +26,6 @@ Designed for blissful cell gaming, **GODDESS OF VICTORY: NIKKE** has a one-hande
 Utilizing brand new animated illustrations, **GODDESS OF VICTORY: NIKKE** facets easy persona movements, sensible personality overall performance and dynamic fight experiences. Each personality additionally has distinct weapons and abilities that will uniquely structure how gamers play the game.
 
 Players are additionally free to compose their fine group composition, strengthen every persona and whole every mission to triumph over invaders and shop humanity. In addition, this sport has special boss battle tiers with massive enemies, which makes gamers giggle.
+
+
+Source: Press Release

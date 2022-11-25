@@ -1,5 +1,5 @@
 ---
-date: 2022-11-23T08:41:23-08:00
+date: 2022-11-18T08:41:23-08:00
 title: "The Latest Snapdragon 778g Specifications"
 thumbnail: "/images/technology/[tech]snapdragon-778g.jpg"
 description: ""
@@ -21,3 +21,5 @@ This SoC nonetheless makes use of 6nm fabrication, with an Octa-Core CPU configu
 What's one of a kind right here is the top core, which has a greater Clockspeed of 200 Mhz, in contrast to the Snapdragon 778G+ which has a Clockspeed of 2.5GHz. It gives 5% greater performance.
 
 Meanwhile, from the GPU side, it nevertheless makes use of the Adreno 642L, however its overall performance has been multiplied by means of up to 10%.
+
+Source: https://www.qualcomm.com/products/application/smartphones/snapdragon-7-series-mobile-platforms/snapdragon-778g-5g-mobile-platform

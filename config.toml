@@ -16,8 +16,8 @@ pygmentsUseClasses = true
   tag = "tags"
 
 [params]
-  site_name = "Gooblog"
-  description = "Gooblong description"
+  site_name = "Gooblob"
+  description = "gooblob is a site that contains articles about technology and entertainment"
   locale = "en-US"
   type = "website"
   categories = [ 
@@ -45,6 +45,7 @@ pygmentsUseClasses = true
 [[related.indices]]
   name = 'date'
   weight = 10
+  
 
 
 
