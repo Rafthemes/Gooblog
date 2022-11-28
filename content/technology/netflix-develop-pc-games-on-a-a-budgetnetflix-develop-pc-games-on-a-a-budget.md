@@ -19,4 +19,4 @@ Netflix hasn't formally spoken yet, however this indication got here from a job 
 
 It will be constructed with the Unreal Engine as a base and will most in all likelihood take the motion RPG style later. **Netflix** additionally needs to amplify the narrative of this video sport into different media, such as freelance films/series which of course, will be labored on and launched below the Netflix banner.
 
-Source: https://jobs.netflix.com/jobs/243929231
+Source: [Netlfix](https://jobs.netflix.com/jobs/243929231)

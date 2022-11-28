@@ -127,7 +127,7 @@ The 12 months is 1868; English nobleman George Joestar and his son Jonathan turn
 **Genres:** Action, Adventure, Supernatural
 
 
-Source: https://www.google.com/
+Source: [Google](https://www.google.com/)
 
 
 
