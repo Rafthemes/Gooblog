@@ -34,6 +34,10 @@ pygmentsUseClasses = true
   name = 'date'
   weight = 10
 
+# json
+[outputs]
+  home = ["html", "json"]
+
 
 # untuk mengganti struktur link
 # [permalinks]
