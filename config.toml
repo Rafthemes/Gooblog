@@ -47,6 +47,10 @@ pygmentsUseClasses = true
   weight = 10
   
 
+# json
+[outputs]
+  home = ["html", "json"]
+
 
 
 
