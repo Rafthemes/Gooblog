@@ -1,5 +1,5 @@
 ---
-date: 2022-11-24T21:23:57-08:00
+date: 2022-11-29T21:23:57-08:00
 title: "10 Recommendation Action Anime By Google"
 thumbnail: "/images/anime/[anime]re-anime-action-by-google.png"
 description: ""
