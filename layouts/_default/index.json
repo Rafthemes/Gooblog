@@ -1,6 +1,6 @@
 {{- $.Scratch.Add "index" slice -}}
 {{- range first 50 site.RegularPages -}}
 {{- $date:= time.Format ":date_long" .PublishDate -}}
-{{- $.Scratch.Add "index" (dict "title" .Title "date" $date "thumbnail" .Params.thumbnail "description" .Params.description "tags" .Params.tags "contents" .Plain "permalink" .RelPermalink) -}}
+{{- $.Scratch.Add "index" (dict "title" .Title "date" $date "thumbnail" .Params.thumbnail "description" .Params.description "tags" .Params.tags "category" .Params.category "contents" .Plain "permalink" .RelPermalink) -}}
 {{- end -}}
 {{- $.Scratch.Get "index" | jsonify -}}
