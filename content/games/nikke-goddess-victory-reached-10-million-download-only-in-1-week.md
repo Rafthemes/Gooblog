@@ -17,7 +17,8 @@ Released November 4, 2022, GODDESS OF VICTORY: NIKKE recorded over 10 million do
 
 Before it used to be formally launched, **GODDESS OF VICTORY: NIKKE** had efficiently gathered extra than three million pre-registrations. Even a day earlier than its legit launch, the recreation developed via SHIFT UP has been **ranked 1st** as the pleasant RPG sport on the App Store and Play Store. The international launch of **GODDESS OF VICTORY: NIKKE** used to be enthusiastically welcomed with the aid of the community, recording greater than **10 million** downloads in simply one week.
 
-![1](/images/games/[games]nikke001.png)
+{{< picture path="images/games/[games]nikke001.png" alt="nikke 1" >}}
+
 
 **GODDESS OF VICTORY: NIKKE** additionally introduced their first new SSR NIKKE considering that international launch — **Helm** — which is the chief of the Aegis naval force. Now, Helmets are on hand in the sport for Commanders to obtain.
 
