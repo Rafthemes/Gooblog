@@ -1,11 +1,7 @@
 {{ define "main" }}
 
 <article class="md:border dark:border-white/10 md:rounded-lg p-4 md:p-6">
-  {{ with .Resources.GetMatch "thumbnail.*" }}
-    {{ with .Resize (printf "%dx%d webp" .Width .Height) }}
-      <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" class="rounded w-full" alt="article cover">
-    {{ end }}
-  {{ end }}
+  <img src="{{ .Params.Thumbnail }}" class="rounded w-full" alt="article cover">
 
   <div class="pt-3 space-y-5 mt-3 mb-5 pb-3">
     <h1 class="text-3xl font-medium leading-none capitalize">
