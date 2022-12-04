@@ -16,5 +16,6 @@ One of the conveniences of the use of a console as a base for a gaming platform 
 
 In the written argument they submitted to associated parties, discussing the final time of cooperation they have with Call of Duty, it is believed that the contract will cease in 2027. Sony stated that this timing would coincide with the launch of the brand new technology of Playstation consoles (Playstation 6) the place they would no longer have get admission to to Call of Duty or different Activision games. Sony believes this state of affairs will expose Sony to a workable shift in client structures and ultimately, a big discount in the stage of opposition in the market.
 
+&nbsp;
 
 Source: [Twitter](https://twitter.com/PiersHR/status/1595426200683483140?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1595426200683483140%7Ctwgr%5E04723f55a96003f398dedf1ebfe2240ce2da95d8%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fjagatplay.com%2F2022%2F11%2Fnews%2Fsony-playstation-6-baru-akan-muncul-setidaknya-2027%2F)

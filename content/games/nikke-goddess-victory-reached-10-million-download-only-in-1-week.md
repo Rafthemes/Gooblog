@@ -28,5 +28,6 @@ Utilizing brand new animated illustrations, **GODDESS OF VICTORY: NIKKE** facets
 
 Players are additionally free to compose their fine group composition, strengthen every persona and whole every mission to triumph over invaders and shop humanity. In addition, this sport has special boss battle tiers with massive enemies, which makes gamers giggle.
 
+&nbsp;
 
 Source: Press Release

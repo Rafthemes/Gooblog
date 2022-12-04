@@ -22,4 +22,6 @@ What's one of a kind right here is the top core, which has a greater Clockspeed 
 
 Meanwhile, from the GPU side, it nevertheless makes use of the Adreno 642L, however its overall performance has been multiplied by means of up to 10%.
 
+&nbsp;
+
 Source: [Qualcomm](https://www.qualcomm.com/products/application/smartphones/snapdragon-7-series-mobile-platforms/snapdragon-778g-5g-mobile-platform)

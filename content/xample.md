@@ -16,6 +16,9 @@ trending: false
 
 ![1](/images/1.webp)
 
+{{< picture path="images/path/picture.png" >}}
+
+
 asdasdad
 
 ## asdasdasd

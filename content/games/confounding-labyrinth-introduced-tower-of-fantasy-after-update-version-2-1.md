@@ -25,4 +25,6 @@ Apart from the Confounding Labyrinth, Saki Fuwa's latest Simulacra used to be la
 
 The Confounding Labyrinth will be arriving at the Tower of Fantasy November 22, 2022. Meet special monsters and discover lovely new locations inside this maze!
 
+&nbsp;
+
 Source: Press Release
