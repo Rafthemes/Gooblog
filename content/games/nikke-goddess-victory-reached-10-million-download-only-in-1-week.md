@@ -8,7 +8,7 @@ category: 'games'
 keyword: [Nikke, Mobile Games, Anime, Waifu]
 draft: false
 toc: false
-trending: false
+trending: true
 ---
 
 Released November 4, 2022, GODDESS OF VICTORY: NIKKE recorded over 10 million downloads simply a week after its international launch.

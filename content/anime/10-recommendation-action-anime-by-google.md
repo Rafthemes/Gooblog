@@ -8,7 +8,7 @@ tags: [anime]
 keyword: [Recommendation, Anime, Google]
 draft: false
 toc: false
-trending: false
+trending: true
 ---
 
 The thing that you often do when looking for something is ask using Google. This is a common thing because there are many internet users today. Anytime and anywhere you can surf the internet using your smartphone or other devices that can connect to the internet.

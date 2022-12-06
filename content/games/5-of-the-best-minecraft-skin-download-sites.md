@@ -8,7 +8,7 @@ tags: [games, minecfraft]
 keyword: [Minecraft, Skin]
 draft: false
 toc: false
-trending: false
+trending: true
 ---
 
 If you are a Minecraft player, you must be familiar with the skins in Minecraft. With the skin, the game will not feel boring.

@@ -4,7 +4,7 @@ title: "Gamers Sued NIKKE Due to Inappropriate Paid Gacha Banner Results"
 thumbnail: "/images/games/[games]nikke.gamers-gacha.jpg"
 description: ""
 category: "games"
-tags: ['games', 'mobile']
+tags: [games, mobile]
 keyword: [Nikke, Game, Gacha ]
 draft: false
 toc: false
@@ -15,7 +15,7 @@ trending: false
 
 Which you can gacha if you have paid gems, or paid forex in the game. There wasn't virtually a hassle with this till some thing went incorrect with the system.
 
-![img](/images/games/nikke/[games]nikke-reddit.png)
+{{< picture path="images/games/nikke/[games]nikke-reddit.png" >}}
 
 This paid banner will make certain game enthusiasts get one SSR Nikke however does now not consist of Pilgrims characters and one of a kind banner characters such as Helm and Laplace. Pilgrim is one of the factions in the sport that has a greater SSR stage than normal SSR.
 
