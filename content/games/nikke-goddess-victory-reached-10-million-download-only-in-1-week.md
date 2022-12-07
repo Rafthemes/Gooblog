@@ -5,7 +5,7 @@ thumbnail: "/images/games/[games]nikke-goddess-victory-reached-10-million-downlo
 description: ""
 tags: [games, mobile]
 category: 'games'
-keyword: [Nikke, Mobile Games, Anime, Waifu]
+keywords: "Nikke, Mobile Games, Anime, Waifu"
 draft: false
 toc: false
 trending: true

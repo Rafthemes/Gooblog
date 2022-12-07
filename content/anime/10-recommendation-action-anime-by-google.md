@@ -5,7 +5,7 @@ thumbnail: "/images/anime/[anime]re-anime-action-by-google.png"
 description: ""
 category: "anime"
 tags: [anime]
-keyword: [Recommendation, Anime, Google]
+keywords: "Recommendation, Anime, Google"
 draft: false
 toc: false
 trending: true

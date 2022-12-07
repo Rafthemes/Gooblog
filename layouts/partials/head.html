@@ -13,6 +13,7 @@
 
   gtag('config', 'G-GMYJHSCSK7');
   </script>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.svg">
   <link rel="canonical" href="{{ .Permalink | absURL }}" />
   <meta property="og:locale" content="en_US" />
   <meta property="og:type" content="{{ or .Type `website` }}" />
@@ -24,8 +25,13 @@
   {{ else }}
   <meta name="og:description" content="{{ .Site.Params.Description }}">
   {{ end }}
+  {{ if .IsPage }}
+  <meta name="keywords" content={{ delimit .Params.Keywords " " }}>
+  {{ else }}
+  <meta name="keywords" content="{{ .Site.Params.Keywords }}">
+  {{ end }}
   <meta property="og:url" content="{{ .Permalink | absURL }}" />
-  <meta property="og:site_name" content="Code Stuff"  />
+  <meta property="og:site_name" content="{{ .Site.Params.Site_name }}"  />
   <meta name="twitter:card" content="summary" />
   {{ if .IsPage }}
   <meta property="article:author" content="https://www.facebook.com/hudasevanfold" />

@@ -5,7 +5,7 @@ thumbnail: "/images/games/minecraft/[games]minecraft-skin-site.jpg"
 description: ""
 category: "games"
 tags: [games, minecfraft]
-keyword: [Minecraft, Skin]
+keywords: "Minecraft, Skin"
 draft: false
 toc: false
 trending: true

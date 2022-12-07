@@ -18,6 +18,7 @@ pygmentsUseClasses = true
 [params]
   site_name = "Gooblob"
   description = "gooblob is a site that contains articles about technology and entertainment"
+  keywords = "blog, games, technology"
   locale = "en-US"
   type = "website"
   categories = [ 

@@ -5,7 +5,7 @@ thumbnail: "/images/technology/[tech]playstation-logo-black.jpg"
 description: ""
 category: "technology"
 tags: [technology, console]
-keyword: [Playstation, Sony, Console]
+keywords: "Playstation, Sony, Console"
 draft: false
 toc: false
 trending: false

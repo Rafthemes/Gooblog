@@ -5,7 +5,7 @@ thumbnail: "/images/technology/[tech]netflix-aaa.png"
 description: ""
 tags: [technology]
 category: 'technology'
-keyword: [Netflix, Games, AAA]
+keywords: "Netflix, Games, AAA"
 draft: false
 toc: false
 trending: false

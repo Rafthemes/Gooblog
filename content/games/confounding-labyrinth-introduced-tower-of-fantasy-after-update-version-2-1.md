@@ -5,7 +5,7 @@ thumbnail: "/images/games/[games]tof-labyrinth.png"
 description: ""
 tags: [games, mobile]
 category: 'games'
-keyword: [Tower of Fantasy, Mobile Games, PC Games, Anime, Waifu]
+keywords: "Tower of Fantasy, Mobile Games, PC Games, Anime, Waifu"
 draft: false
 toc: false
 trending: false

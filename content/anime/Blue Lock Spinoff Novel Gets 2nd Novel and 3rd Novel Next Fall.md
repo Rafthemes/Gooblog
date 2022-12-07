@@ -5,7 +5,7 @@ thumbnail: "/images/anime/[anime]bluelock-novel2nd.png"
 description: ""
 category: "anime"
 tags: [anime, novel]
-keyword: [anime, novel]
+keywords: "anime, novel"
 draft: true
 toc: false
 trending: false

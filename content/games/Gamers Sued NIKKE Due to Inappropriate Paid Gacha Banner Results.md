@@ -5,7 +5,7 @@ thumbnail: "/images/games/[games]nikke.gamers-gacha.jpg"
 description: ""
 category: "games"
 tags: [games, mobile]
-keyword: [Nikke, Game, Gacha ]
+keywords: "Nikke, Game, Gacha"
 draft: false
 toc: false
 trending: false

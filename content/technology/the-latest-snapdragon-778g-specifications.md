@@ -5,7 +5,7 @@ thumbnail: "/images/technology/[tech]snapdragon-778g.jpg"
 description: ""
 tags: [technology]
 category: 'technology'
-keyword: [Snapdragon, Mobile]
+keywords: "Snapdragon, Mobile"
 draft: false
 toc: false
 trending: false

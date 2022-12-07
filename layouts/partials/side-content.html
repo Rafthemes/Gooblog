@@ -46,12 +46,10 @@
       <h2 class="text-lg">Trending</h2>
     </div>
     <div class="space-y-3 dark:text-white">
-      {{ range first 6 .Site.RegularPages }}
-        {{ if eq .Params.Trending true }}
-          <a href="{ .Permalink }" class="block line-clamp-2 hover:underline">
-            {{ .Title }}
-          </a>
-        {{ end }}
+      {{ range first 6 (where .Site.Pages "Params.trending" true) }}
+        <a href="{ .Permalink }" class="block line-clamp-2 hover:underline">
+          {{ .Title }}
+        </a>
       {{ end }}
     </div>
     <a href="#"

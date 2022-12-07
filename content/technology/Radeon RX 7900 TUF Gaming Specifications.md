@@ -5,7 +5,7 @@ thumbnail: "/images/technology/[tech]asus-rx7900.webp"
 description: ""
 category: "technology"
 tags: [technology, GPU]
-keyword: [tecgnolgy, GPU]
+keywords: "technology, GPU"
 draft: false
 toc: false
 trending: false
