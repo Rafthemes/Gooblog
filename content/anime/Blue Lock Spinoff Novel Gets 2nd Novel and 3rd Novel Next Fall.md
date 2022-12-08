@@ -6,7 +6,7 @@ description: ""
 category: "anime"
 tags: [anime, novel]
 keywords: "anime, novel"
-draft: true
+draft: false
 toc: false
 trending: false
 ---
