@@ -5,7 +5,7 @@ thumbnail: "/images/thumbb.png"
 description: ""
 category: ""
 tags: []
-keyword: []
+keyword: ""
 draft: true
 toc: false
 trending: false

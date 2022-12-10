@@ -4,7 +4,7 @@ date: 2022-04-03T12:00:26+07:00
 description: ""
 draft: true
 toc: true
-keyword: []
+keyword: ""
 thumbnail: "/images/img2.png"
 category: 'News'
 tags: [Populer, Games]

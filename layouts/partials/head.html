@@ -29,7 +29,9 @@
   <meta name="og:description" content="{{ .Site.Params.Description }}">
   {{ end }}
   {{ if .IsPage }}
+  {{ if .Params.Keywords }}
   <meta name="keywords" content={{ delimit .Params.Keywords " " }}>
+  {{ end }}
   {{ else }}
   <meta name="keywords" content="{{ .Site.Params.Keywords }}">
   {{ end }}
