@@ -11,38 +11,38 @@ toc: false
 trending: false
 ---
 
-Lanjutan cerita petualangan Beel Caranel menelusri dangeon bersama rekan rekan team nya. Cerita ini akan di buka dengan pertarungan Beel Caranel dan juga Ryuu Lion bersama sama bertahan hidup dari serangan monster dalam dangeon!
+Continuation of the adventure story of Beel Caranel exploring the dangeron with his teammates. This story will be opened with the battle between Beel Caranel and Ryuu Lion together to survive the attacks of monsters in the danger!
 
-**Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka** season 4 part 2 akan di siarkan mulai Kamis, 5 Januari 2023 mendatang.
+**Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka** season 4 part 2 will be broadcast starting Thursday, January 5, 2023.
 
-Season 4 part 2 akan tayang pada beberapa siaran TV Jepang dan Platform streaming legal berikut:
+Season 4 part 2 will air on the following Japanese TV broadcasts and legal streaming platforms:
 
-- **TOKYO MX:** Mulai 1/6 setiap minggu (Jumat) mulai pukul 25:05
-- **BS11:** Setiap minggu (Jumat) dari 25:30 dari 1/6
-- **AT-X:** Dari 1/9 setiap minggu (Senin) mulai pukul 22:30
-- **ABEMA:** Mulai 1/6 Setiap minggu (Jumat) 25:35
-- **Amazon Prime Video,** **Netflix, Disney+,** dan layanan distribusi lainnya,
-Perilisan dimulai dari pukul 24:00 setiap minggu (Selasa) mulai 10 Januari
+- **TOKYO MX:** Starting 1/6 every week (Friday) from 25:05
+- **BS11:** Every Sunday (Friday) from 25:30 from 1/6
+- **AT-X:** From 1/9 every week (Monday) from 10:30pm
+- **ABEMA:** From 1/6 Every Sunday (Friday) 25:35
+- **Amazon Prime Video,** **Netflix, Disney+,** and other distribution services,
+Release starts at 24:00 every week (Tuesday) starting January 10th
 
-Tanggal mulai distribusi dapat berubah.
+Distribution start date is subject to change.
 
 
-### Staf
-- **Asli:** Fujino Omori (diterbitkan oleh GA Bunko/SB Creative)
-- **Draf karakter:** Suzuhito Yasuda
-- **Direktur: Hideki** Tachibana
-- **Komposisi seri:** Fujino Omori / Hideki Shirane
-- **Desain karakter:** Shigeki Kimoto
+### Staff
+- **Original:** Fujino Omori (published by GA Bunko/SB Creative)
+- **Character draft:** Suzuhito Yasuda
+- **Director: Hideki** Tachibana
+- **Series composition:** Fujino Omori / Hideki Shirane
+- **Character design:** Shigeki Kimoto
 - **Art Director:** Kim Jung-ryun (Moonflower)
-- **Desain warna:** Tomomi Ando
-- **Direktur Fotografi:** Shingo Fukuyo
-- **Pengeditan:** Kentaro Tsubone (REAL-T)
-- **Sutradara Suara:** Hitoshi Aketagawa
-- **Musik: Keiji Iuchi**
-- **Produser:** EGG FIRM/SB Creative
-- **Produksi animasi:** J.C.STAFF
+- **Design color:** Tomomi Ando
+- **Director of Photography:** Shingo Fukuyo
+- **Editing:** Kentaro Tsubone (REAL-T)
+- **Sound Director:** Hitoshi Aketagawa
+- **Music: Keiji Iuchi**
+- **Producer:** EGG FIRM/SB Creative
+- **Animation production:** J.C.STAFF
 
-### Pemeran
+### Cast
 - **Bell Cranel:** Yoshitsugu Matsuoka
 - **Hestia:** Inori Minase
 - **Liliruca Arde:** Maaya Uchida
