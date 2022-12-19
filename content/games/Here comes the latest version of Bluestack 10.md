@@ -11,43 +11,43 @@ toc: false
 trending: false
 ---
 
-Bluestack adalah emmulator android yang sangat populer bahkan Bluestack sendiri mengclaim bahwa emmulator mereka no 1 di dunia.
+Bluestack is an android emulator which is very popular and even Bluestack itself claims that their emulator is number 1 in the world.
 
-### Apa itu emmulator android?
+### What is an android emulator?
 
-Emmulator adalah tools yang berfungsi untuk menjalankan programe android di komputer tanpa harus memiliki perangkat android tersebut. Untuk emmulator android seperti Bluestack kita dapat menginstal atau menjalankan aplikasi atau game android di komputer tanpa harus mengunakan perangkat android.
+Emulators are tools that function to run Android programs on a computer without having to have an Android device. For Android emulators like Bluestack, we can install or run Android applications or games on a computer without having to use an Android device.
 
-### Perbedaan Bluestack 10 dan Bluestack 5
+### Differences between Bluestack 10 and Bluestack 5
 
-Bluestack 10 jauh lebih ringan dari Bluestack 5 karena Bluestack 10 berjalan dengan mengunakan cloud  jadi tidak membebani perangkat komputer sedangkan Bluestack 5 berjalan native dengan mengunakan speksifikasi dari komputer seperti Ram,CPU, dan Storage.
+Bluestack 10 is much lighter than Bluestack 5 because Bluestack 10 runs using the cloud so it doesn't burden computer devices while Bluestack 5 runs natively using computer specifications such as Ram, CPU and Storage.
 
-User interface yang berbeda dari versi sebelum nya
+The user interface is different from the previous version
 
 
-**Bluestack 5**
+**Bluestacks 5**
 
 {{< picture path="images/games/[games]ss-bluestack5.png" >}}
 
 
-**Bluestack 10**
+**Bluestacks 10**
 
 {{< picture path="images/games/[games]ss-bluestack10.png" >}}
 
 
 
-### FAQ
+### FAQs
 
-Apakah Bluestack 10 gratis?
-- Bluestack 10 100% gratis
+Is Bluestack 10 free?
+- Bluestacks 10 100% free
 
-Bluestack 10 support untuk windows versi berapa?
-- Support windows 10/11
+What version of Bluestack 10 is supported for Windows?
+-Support windows 10/11
 
-Bagaimana jika saya tidak mengunakan windows?
-- Bluestack 10 tidak hanya support untuk windows namun juga bisa untuk Linux dan MacOS
+What if I don't use windows?
+- Bluestack 10 not only supports Windows but also Linux and MacOS
 
-Apakah Bluestack 10 ringan?
-- Bluestack 10 berjalan mengunakan cloud jadi tidak perlu speksifikasi perangkat hardware tinggi namun koneksi internet haruslah stabil
+Is Bluestack 10 lightweight?
+- Bluestack 10 runs using the cloud so there is no need for high hardware device specifications but the internet connection must be stable
 
 &nbsp;
 
