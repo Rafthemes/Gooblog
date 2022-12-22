@@ -1,12 +1,12 @@
 ---
-date: 2022-12-17T17:18:24-08:00
+date: 2022-12-21T17:18:24-08:00
 title: "Anime Mato Seihei No Slave Released the Latest Trailer"
 thumbnail: "/images/anime/[anime]mato-slave.png"
 description: ""
 category: "anime"
 tags: [anime]
 keyword: "Anime, Mato Seihei No Slave"
-draft: false
+draft: true
 toc: false
 trending: false
 ---
