@@ -6,7 +6,7 @@ description: ""
 category: "anime"
 tags: [anime]
 keyword: "Anime, Mato Seihei No Slave"
-draft: true
+draft: false
 toc: false
 trending: false
 ---
