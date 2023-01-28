@@ -1,4 +1,4 @@
-baseURL = "https://gooblob.com"
+baseURL = "https://example.com"
 languageCode = "id-ID"
 defaultContentLanguage = "id"
 title = "Gooblob"
@@ -8,6 +8,7 @@ disqusShortname = "gooblog"
 enableGitInfo = true
 pygmentsCodefences = true 
 pygmentsUseClasses = true
+enableEmoji = true
 [permalinks]
   '/' = '/:section/:filename/'
 
@@ -16,15 +17,17 @@ pygmentsUseClasses = true
   tag = "tags"
 
 [params]
-  site_name = "Gooblob"
-  description = "gooblob is a site that contains articles about technology and entertainment"
+  site_name = "Gooblog"
+  description = "Gooblog is a site that contains articles about technology and entertainment"
   keywords = "blog, games, technology"
   locale = "en-US"
   type = "website"
   categories = [ 
+    'android',
+    'anime',
     'games',
     'technology',
-    'anime'
+    'trending'
   ]
   instagram = '#'
   twitter = '#'
