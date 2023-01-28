@@ -1,3 +1,8 @@
+![img](gooblog.png)
+
+
+
+
 ### Preparation
 
 To create new blog post, please follow this instruction.
