@@ -1,4 +1,4 @@
-baseURL = "https://rafthemes.github.io/gooblogs/"
+baseURL = "http://gooblog.rafthemes.com/"
 languageCode = "id-ID"
 defaultContentLanguage = "id"
 title = "Gooblob"
