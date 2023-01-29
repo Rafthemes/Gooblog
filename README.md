@@ -6,7 +6,7 @@ Blog Hugo Theme By Rafthemes
 ![img](gooblog.png)
 
 
-# 📸 Performance
+# ⚡ Performance
 
 Desktop
 
