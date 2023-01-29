@@ -1,21 +1,48 @@
+# ✨ Gooblog
+
+Blog Hugo Theme By Rafthemes
+
+# 📸 Screnshoot
 ![img](gooblog.png)
 
 
+# 📗  Version
 
-
-### Preparation
-
-To create new blog post, please follow this instruction.
-
-First, make sure you have installed Hugo for your system and use Hugo v0.101.0 or higher:
-
-```shell
-$ hugo version
+```
+minimum hugo version 0.101.0
+tailwindcss version 3.1.5
 ```
 
-To download Hugo please [go here](https://github.com/gohugoio/hugo/releases).
+# 🥕 Setup dev env
 
-### Create new post
+Run "npm install" (first time only)
+
+Then configure `config.toml`
+
+# 🥕 Run hugo server
+
+1. run hugo server
+
+```
+hugo server
+```
+
+2. run tailwindcss server (if you edit some style with tailwindcss)
+
+```
+npm run tailwind-dev
+```
+
+Tailwind CSS file located at `./tailwindcss`.
+Generated Tailwind CSS located at `./static/css/main.css`.
+
+# 🥕 Build hugo site
+
+```
+hugo --ignoreCache --minify
+```
+
+# 🥕 Create new post
 
 Go to your Hugo site directory, and run:
 
@@ -28,7 +55,7 @@ Example:
 $ hugo new content/posts/hello-world.md
 ```
 
-### Editing new post
+# 🥕 Editing new post
 
 Your new post is located in directory "content/posts/".
 So at the full path its look like "content/posts/[your new post file name].md".
@@ -42,7 +69,7 @@ $ vim content/posts/hello-world.md
 ```
 HTML code is supported.
 
-### Summary
+# 🍻 Summary
 
 To summary what all you need to do:
 
