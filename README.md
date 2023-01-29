@@ -6,6 +6,17 @@ Blog Hugo Theme By Rafthemes
 ![img](gooblog.png)
 
 
+# 📸 Performance
+
+Desktop
+
+![img](desktop.png)
+
+Mobile
+
+![img](mobile.png)
+
+
 # 📗 Version
 
 ```
