@@ -90,4 +90,6 @@ To summary what all you need to do:
 4. Finish!! As simple as that.
 
 
+# ©️ License
+
 Licensed under [MIT License](https://mit-license.org/).
