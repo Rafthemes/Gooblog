@@ -6,7 +6,7 @@ Blog Hugo Theme By Rafthemes
 ![img](gooblog.png)
 
 
-# 📗  Version
+# 📗 Version
 
 ```
 minimum hugo version 0.101.0
