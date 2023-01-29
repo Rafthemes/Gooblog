@@ -88,3 +88,6 @@ To summary what all you need to do:
 2. Create new markdown file for new post with Hugo command
 3. Edit your post
 4. Finish!! As simple as that.
+
+
+Licensed under [MIT License](https://mit-license.org/).
